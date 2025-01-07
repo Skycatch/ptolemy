@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.5.0
+- Add MapTiler adapter, new env variable `MAPTILER_API_KEY` is required
+
 ## v1.4.3 
 - Replace epsg.io xml request for json request
 

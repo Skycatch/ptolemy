@@ -14,7 +14,7 @@ const argv = require('yargs')
 .argv;
 
 const ptolemy = new Ptolemy({
-  adapters: [{name: 'skycatch'}, {name: 'epsgio'}]
+  adapters: [{name: 'skycatch'}, {name: 'maptiler'}]
 });
 
 ptolemy.getProjection(argv.epsg, argv.format)

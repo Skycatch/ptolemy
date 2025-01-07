@@ -31,7 +31,7 @@ Example
 
 ```js
 const ptolemy = new Ptolemy({
-  adapters: [{name: 'skycatch'}, {name: 'epsgio'}]
+  adapters: [{name: 'skycatch'}, {name: 'maptiler'}]
 });
 
 ptolemy.getProjection('epsg:2004', 'proj4')
